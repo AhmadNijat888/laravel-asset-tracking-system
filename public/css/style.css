@@ -114,6 +114,8 @@ h4 {
     border: none;
     font-size: 14px;
     transition: all 0.3s ease;
+    text-align: center;
+    font-family: inherit;
 }
 
 .btn-blue {

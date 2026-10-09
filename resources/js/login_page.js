@@ -167,7 +167,7 @@ loginForm.addEventListener('submit', function(event) {
         localStorage.setItem('loggedInUser', JSON.stringify(userData));
         
         setTimeout(() => {
-            window.location.href = '/dashboard';
+            window.location.href = '/index';
         }, 1000);
     } else {
         showAlertMessage('مهرباني وکړئ ټول معلومات په سمه توګه ډک کړئ', false);

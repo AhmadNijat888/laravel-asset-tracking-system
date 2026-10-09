@@ -1,9 +1,13 @@
 <?php
 
+use App\Http\Controllers\AssetController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\DepartmentController;
 use Illuminate\Support\Facades\Route;
 
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('signup');
 });
 
 Route::get('/index', function () {
@@ -18,7 +22,7 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
-Route::get('/assets', function () {
+Route::get('/assets-page', function () {
     return view('assets');
 });
 
@@ -33,3 +37,8 @@ Route::get('/reports', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+
+Route::resource('assets', AssetController::class);
+Route::resource('users', UserController::class);
+Route::resource('departments', DepartmentController::class);

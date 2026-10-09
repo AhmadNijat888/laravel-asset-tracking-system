@@ -8,7 +8,7 @@
     <meta name="keywords" content="Asset Tracking System, شتمنو مدیریت سیستم">
     <meta name="author" content="Ahmad Nijat Agha">
     <link rel="stylesheet" href="{{ asset('css/style.css')}}">
-    <script src="{{ asset('js\login_page.js') }}" defer></script>
+    <script src="{{ asset('js\signup_page.js') }}" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
@@ -19,13 +19,13 @@
         <div class="logo">د شتمنیو تعقیب سیسټم</div>
         <nav class="main-nav">
         <ul class="nav">
-        <li><a href="/login" class="active">کور پاڼه</a></li>
+        <li><a href="/" class="active">کور پاڼه</a></li>
             <li><a href="/login">ننوتل</a></li>
-            <li><a href="/login">ډشبورډ</a></li>
-            <li><a href="/login">شتمنۍ</a></li>
-            <li><a href="/login">پلټل</a></li>
-            <li><a href="/login">راپورونه</a></li>
-            <li><a href="/login">اړیکي</a></li>
+            <li><a href="/">ډشبورډ</a></li>
+            <li><a href="/">شتمنۍ</a></li>
+            <li><a href="/">پلټل</a></li>
+            <li><a href="/">راپورونه</a></li>
+            <li><a href="/">اړیکي</a></li>
         </ul>
         </nav>
     </div>
@@ -34,7 +34,7 @@
 <div class="main">
 
     <div id="login" class="section login">
-        <h2>سیستم ته ننوتل</h2>
+        <h2>سیستم کي اکاونټ جوړول</h2>
         <div class="login-box card-hover">
 
             <div id="errorContainer" style="display: none;"></div>
@@ -59,8 +59,8 @@
                     </select>
                     <small id="roleError" class="error-text"></small>
                 </div>
-                <button type="submit" class="btn btn-blue btn-block">ننوتل</button>
-                <a href="/" class="btn btn-blue btn-block">اکاونټ جوړول</a>
+                <button type="submit" class="btn btn-blue btn-block">اکاونټ جوړول</button>
+                <a href="/" class="btn btn-blue btn-block">ننوتل</a>
             </form>
         </div>
     </div>
@@ -77,11 +77,11 @@
         <div class="footer-col">
             <h4>چټک لینکونه</h4>
             <ul>
-            <li><a href="/login">کور</a></li>
+            <li><a href="/">کور</a></li>
                 <li><a href="/login">ننوتل</a></li>
-                <li><a href="/login">ډشبورډ</a></li>
-                <li><a href="/login">شتمنۍ</a></li>
-                <li><a href="/login">راپورونه</a></li>
+                <li><a href="/">ډشبورډ</a></li>
+                <li><a href="/">شتمنۍ</a></li>
+                <li><a href="/">راپورونه</a></li>
             </ul>
         </div>
         <div class="footer-col">

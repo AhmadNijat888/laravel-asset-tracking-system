@@ -25,6 +25,7 @@
             <li><a href="/assets">شتمنۍ</a></li>
             <li><a href="/search">پلټل</a></li>
             <li><a href="/reports">راپورونه</a></li>
+            <li><a href="/assets">تنظیم</a></li>
             <li><a href="/contact">اړیکي</a></li>
         </ul>
         </nav>
